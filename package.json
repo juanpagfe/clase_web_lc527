@@ -1,0 +1,17 @@
+{
+  "name": "clase_web_lc527",
+  "version": "0.1.0",
+  "description": "Aplicación de chat simple usando Node.js y Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

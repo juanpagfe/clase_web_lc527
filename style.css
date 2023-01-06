@@ -1,0 +1,62 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper{
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+}
+
+
+#message-container {
+  height: 500px;
+  max-height: 500px;
+  overflow: auto;
+  border: 2px solid lightcoral;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#message-container div {
+  padding: 5px;
+  max-width: 50%;
+  background-color: white;
+  text-align: left;
+}
+
+#message-container div.own, #message-container div.message {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+#message-container div.message {
+  color: #858585;
+}
+
+#message-container div.incoming{
+  margin-right: 0;
+  margin-left: auto;
+  text-align: right;
+  background-color: #ececec;
+  padding-right: 20px;
+}
+
+#send-container {
+  padding-bottom: 30px;
+  background-color: white;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#message-input {
+  height: 30px;
+  width: 90%;
+}
+
+button{
+  height: 36px;
+  width: 9%;
+}
